@@ -18,7 +18,7 @@ export default function Home() {
       <RoadMap />
       <Movement />
       <Future />
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 }
