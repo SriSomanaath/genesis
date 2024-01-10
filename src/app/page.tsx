@@ -4,6 +4,7 @@ import Explore from '../app/Explore/page';
 import Perks from '../app/Perks/page';
 import CountDown from '../app/CountDown/page';
 import RoadMap from '../app/RoadMap/page';
+import Movement from '../app/Movement/page';
 import Future from '../app/Future/page';
 import Footer from '../app/Footer/page';
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Perks />
       <CountDown />
       <RoadMap />
+      <Movement />
       <Future />
       <Footer />
     </main>

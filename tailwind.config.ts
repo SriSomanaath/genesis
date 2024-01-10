@@ -17,6 +17,10 @@ const config: Config = {
         textGradientStart: "#b65cdd",
         textGradientVia: "#d84c98",
         textGradientFrom: "#fb3c55",
+        perk1: "#ae60c4",
+        perk2: "#b755a8",
+        perk3: "#c64f90",
+        perk4: "#ca4572"
       }
     },
   },
