@@ -20,7 +20,8 @@ const config: Config = {
         perk1: "#ae60c4",
         perk2: "#b755a8",
         perk3: "#c64f90",
-        perk4: "#ca4572"
+        perk4: "#ca4572",
+        footerBg: "#0D0D0D"
       }
     },
   },
