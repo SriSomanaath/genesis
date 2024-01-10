@@ -23,7 +23,7 @@ const Page = () => {
               </ul>
             </div>
             <div>
-              <img src="./logo.png" className="relative mr-4 lg:mr-60 max-sm:hidden" alt="Interface" />
+              <img src="./Logo.png" className="relative mr-4 lg:mr-60 max-sm:hidden" alt="Interface" />
             </div>
             <div>
               <img src="./frame2.png" className="relative max-sm:hidden" alt="Interface" />
