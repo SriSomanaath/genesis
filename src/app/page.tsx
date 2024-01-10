@@ -1,8 +1,22 @@
-import Image from 'next/image'
+import Image from 'next/image';
+import Hero from '../app/Hero/page';
+import Explore from '../app/Explore/page';
+import Perks from '../app/Perks/page';
+import CountDown from '../app/CountDown/page';
+import RoadMap from '../app/RoadMap/page';
+import Future from '../app/Future/page';
+import Footer from '../app/Footer/page';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-gradient-to-r from-textGradientStart via-textGradientVia to-textGradientFrom">
+    <main className="relative flex flex-col">
+      <Hero />
+      <Explore />
+      <Perks />
+      <CountDown />
+      <RoadMap />
+      <Future />
+      <Footer />
     </main>
-  )
+  );
 }
