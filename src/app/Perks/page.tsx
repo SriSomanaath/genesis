@@ -63,15 +63,15 @@ const page = () => {
           <div>
           <div  className="flex flex-row items-center space-x-6 py-10 justify-center max-sm:space-x-0 max-sm:gap-2">
             <div className="flex max-sm:flex-col">
-              <div><Image src="/club1.png" width={200} height={10} alt="Picture of the author"  /></div>
-                <div><Image src="/club2.png" width={200} height={10} alt="Picture of the author"  /></div>
-                <div><Image src="/club3.png" width={200} height={10} alt="Picture of the author"  /></div>
+              <div><Image src="/club1.png" width={200} height={10} alt="Picture of the author" className="w-auto" /></div>
+                <div><Image src="/club2.png" width={200} height={10} alt="Picture of the author" className="w-auto"  /></div>
+                <div><Image src="/club3.png" width={200} height={10} alt="Picture of the author" className="w-auto"  /></div>
             </div>
 
             <div className="flex max-sm:flex-col">
-              <div><Image src="/club4.png" width={200} height={10} alt="Picture of the author"  /></div>
-              <div><Image src="/club5.png" width={200} height={10} alt="Picture of the author"  /></div>
-              <div><Image src="/club6.png" width={200} height={10} alt="Picture of the author"  /></div>
+              <div><Image src="/club4.png" width={200} height={10} alt="Picture of the author"  className="w-auto" /></div>
+              <div><Image src="/club5.png" width={200} height={10} alt="Picture of the author"  className="w-auto" /></div>
+              <div><Image src="/club6.png" width={200} height={10} alt="Picture of the author"  className="w-auto" /></div>
             </div>
 
           </div>
